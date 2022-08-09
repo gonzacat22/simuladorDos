@@ -1,0 +1,101 @@
+html {
+    font-family: "Helvetica", sans-serif;
+  }
+
+header {
+    text-align: center;
+    margin: 2%;
+    padding: 2px;
+      margin-bottom: 20px;
+  }
+  body {
+  
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    background-size: cover;
+    background: linear-gradient(#f0d024 1px, #0f5f2b);
+  
+  } 
+  form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    margin: 1rem;
+  }
+  .userCard {
+    background-color: beige;
+    width: 10rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 1rem;
+  }
+  .userCard p, .userCard h3 {
+    padding: .5rem 0;
+  }
+  .userCard button {
+    margin-bottom: 1rem;
+  }
+  
+  
+  .item {
+      border: 2px solid #040404;
+      padding: 10px;
+      border-radius: 20px;
+      
+    }
+    
+    .item-title {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+    }
+    
+    .item-image {
+      max-height: 400px;
+      width: 100%;
+      padding:2rem;
+    }
+    
+    .item-details {
+      display:block;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0px 15px;
+    }
+    
+    .item-details > .item-price {
+      margin: 20px;
+      text-align: center;
+    }
+    
+    /* ? Carrito de compras */
+    .shopping-cart-items {
+      padding: 20px 0px;
+    }
+    
+    .tarjetaTiendaHeader {
+      border-bottom: 2px solid #eaeae3
+      
+    }
+    
+    .shopping-cart-image {
+      max-width: 80px;
+      border-radius: 20px;
+    }
+    
+    .shopping-cart-quantity-input {
+      max-width: 100px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #eee;
+      padding: 5px;
+    }
+    
+    .shopping-cart-total {
+      min-height: 96px;
+    }
+  
